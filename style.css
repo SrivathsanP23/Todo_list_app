@@ -1,0 +1,127 @@
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the main container */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Styling for the Todo App container */
+.ta-container {
+    background-color: #ffffffe1;
+    border-radius: 5px;
+    box-shadow: 0 10px 19px rgba(45, 44, 44, 0.801);
+    padding: 20px;
+    width: 400px;
+    transition: all 1s ease-in-out;
+}
+
+.ta-container input{
+    height: 30px;
+    font-size: large;
+    font-weight: 500;
+}
+
+
+.ta-container:hover{
+    border-radius:20px;
+    color: white;
+    transition: all 1s linear; 
+    background-color: #000000;
+    box-shadow: 0 10px 19px rgba(130, 7, 7, 0.801);
+}
+
+/* Styling for the heading */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for the input field and button */
+.input-wrapper {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#todo-input {
+    flex: 1;
+    font-size: large;
+    font-weight: 500;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px 30px;
+}
+
+#submit {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Styling for the todo list items */
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.text {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.action-items {
+    display: flex;
+    gap: 5px;
+}
+
+/* Styling for Font Awesome icons */
+.fa-solid {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.fa-check {
+    color: #28a745;
+    cursor: pointer;
+}
+
+.fa-pen-to-square, .fa-x, .save {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.fa-trash {
+    color: #dc3545;
+    cursor: pointer;
+}
+
+
+/* Add this to your existing style.css file */
+
+/* Background animation */
+
